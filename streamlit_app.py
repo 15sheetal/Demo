@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-df=pd.read_csv('C:/Users/User 18/Desktop/Deployment/data/IRIS (2).csv')
+df=pd.read_csv('IRIS (2).csv')
 st.title('IRIS FLOWER DASHBOARD')
 st.divider()
 st.sidebar.header('Description')
